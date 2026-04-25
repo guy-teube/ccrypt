@@ -34,7 +34,7 @@ msgstr "erreur inconnue"
 #: ../src/main.c:45 ../src/main.c:90 ../src/main.c:95
 #, c-format
 msgid "%s %s. Secure encryption and decryption of files and streams.\n"
-msgstr "%s %s. Chiffrage et déchiffrage fort des fichiers et flots.\n"
+msgstr "%s %s. Chiffrement et déchiffrement fort des fichiers et flots.\n"
 
 #: ../src/main.c:48
 #, c-format
@@ -104,7 +104,7 @@ msgstr ""
 "avertissements\n"
 "    -f, --force           recouvrir les fichiers existants sans "
 "confirmation\n"
-"    -m, --mismatch        permettre déchiffrage avec clé non-correspondante\n"
+"    -m, --mismatch        permettre déchiffrement avec clé non-correspondante\n"
 "    -E, --envvar var      lire la clé d'une variable d'environnement (peu "
 "sûr)\n"
 "    -K, --key key         donner la clé à la ligne de commande (peu sûr)\n"
@@ -119,10 +119,10 @@ msgstr ""
 "changement de clé)\n"
 "    -Q, --prompt2 prompt  comme -P pour la deuxième clé (pour le mode de "
 "changement de clé)\n"
-"    -t, --timid           demander deux fois les clés de chiffrage "
+"    -t, --timid           demander deux fois les clés de chiffrement "
 "(défault)\n"
-"    -b, --brave           demander seulement une fois des clés de chiffrage\n"
-"    -y, --keyref file     comparer la clé de chiffrage à ce fichier chiffré\n"
+"    -b, --brave           demander seulement une fois des clés de chiffrement\n"
+"    -y, --keyref file     comparer la clé de chiffrement à ce fichier chiffré\n"
 "    -r, --recursive       traverser les sous-répertoire récursivement\n"
 "    -R, --rec-symlinks    suivre les liens symboliques pointant sur des "
 "répertoires\n"
@@ -231,7 +231,7 @@ msgid ""
 "Try --help for more information.\n"
 msgstr ""
 "%s: données chiffrées non écrites sur un terminal. Utilisez -f pour\n"
-"forcer le chiffrage. Essayez --help pour plus des renseignements.\n"
+"forcer le chiffrement. Essayez --help pour plus des renseignements.\n"
 
 #: ../src/main.c:418
 #, c-format
@@ -240,7 +240,7 @@ msgid ""
 "Try --help for more information.\n"
 msgstr ""
 "%s: données chiffrées non lues à partir d'un terminal. Utilisez -f pour\n"
-"forcer le déchiffrage. Essayez --help pour plus des renseignements.\n"
+"forcer le déchiffrement. Essayez --help pour plus des renseignements.\n"
 
 #: ../src/main.c:461
 #, c-format
@@ -255,11 +255,11 @@ msgstr "%s: erreur en lisant le fichier de clé\n"
 
 #: ../src/main.c:491
 msgid "Enter encryption key: "
-msgstr "Veuillez entrer la clé de chiffrage: "
+msgstr "Veuillez entrer la clé de chiffrement: "
 
 #: ../src/main.c:495
 msgid "Enter decryption key: "
-msgstr "Veuillez entrer la clé de déchiffrage: "
+msgstr "Veuillez entrer la clé de dhiffrement: "
 
 #: ../src/main.c:499
 msgid "Enter old key: "
@@ -296,7 +296,7 @@ msgstr "%s: impossible d'ouvrir %s: %s\n"
 #: ../src/main.c:565
 #, c-format
 msgid "The encryption key does not match the reference file.\n"
-msgstr "La clé de chiffrage ne correspond pas au fichier de référence.\n"
+msgstr "La clé de chiffrement ne correspond pas au fichier de référence.\n"
 
 #: ../src/readkey.c:31
 #, c-format
